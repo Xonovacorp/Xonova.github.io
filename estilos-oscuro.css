@@ -1,0 +1,21 @@
+/* Estilos para el modo oscuro */
+
+body {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #222;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.btn-dark {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Estilos adicionales para elementos específicos en el modo oscuro */
