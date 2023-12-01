@@ -1,60 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Página Web</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
 
     <!-- CSS personalizado para el modo claro y oscuro -->
-    <link id="theme" href="estilos-claro.css" rel="stylesheet">
+    <link id="theme" href="estilos-claro.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-
-            <a class="navbar-brand" href="#">
-                <img src="logo.png" alt="Logo de Xonova" width="50" height="50"> Xonovaa
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn btn-dark" id="toggle-theme">Cambiar Modo</button>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Images/logoXonova.jpg"
+            alt="Logo de Xonova"
+            width="50"
+            height="50"
+          />
+          Xonova
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-dark" id="toggle-theme">
+                Cambiar Modo
+              </button>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <div class="social-buttons">
-        <a href="#" target="_blank" title="Facebook">F</a>
-        <a href="#" target="_blank" title="Twitter">T</a>
-        <a href="#" target="_blank" title="Instagram">I</a>
-        <a href="#" target="_blank" title="LinkedIn">L</a>
+      <a href="#" target="_blank" title="Facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" target="_blank" title="Twitter">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="#" target="_blank" title="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="#" target="_blank" title="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
     </div>
 
     <div class="container mt-5">
-        <h1>Bienvenido a Mi Página Web</h1>
-        <p>Esta es una plantilla de página web con modos claro y oscuro.</p>
+      <div class="text-center">
+        <h1>Bienvenida/o a Xonova</h1>
+
+        <p>
+          Nos dedicamos al desarrollo de páginas web y apps web de calidad
+          excepcional. Nuestro equipo altamente capacitado fusiona creatividad y
+          tecnología para crear experiencias digitales impactantes. Trabajamos
+          con seriedad y compromiso para ser su socio estratégico en el éxito
+          digital. ¡Transformemos juntos el panorama digital!
+        </p>
+        <div class="d-flex">
+          <div class="col-6">
+            <h2>Misión:</h2>
+            <p>
+              Nuestra misión es impulsar el éxito digital de nuestros clientes a
+              través de soluciones innovadoras y personalizadas en el desarrollo
+              de páginas web y aplicaciones web. Nos comprometemos a ofrecer
+              servicios de alta calidad, fusionando creatividad y tecnología,
+              para proporcionar experiencias digitales que destaquen y generen
+              un impacto duradero.
+            </p>
+          </div>
+          <div class="col-6">
+            <h2>Visión</h2>
+            <p>
+              Nuestra visión en Xonova es ser reconocidos como líderes en la
+              industria del desarrollo web, destacando por nuestra excelencia,
+              ética de trabajo y compromiso con la satisfacción del cliente.
+              Buscamos ser el socio estratégico preferido para empresas de todos
+              los tamaños, contribuyendo significativamente a su crecimiento y
+              éxito en el entorno digital en constante evolución.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <h2>
+            ¿Como puedo desarrollar mi propia pagina o aplicacion web para mi
+            empresa ?
+          </h2>
+          <img
+            src="Images/ajolote confundido.jpeg"
+            alt="ajolote confundido delante de una pagina"
+            class="img-fluid"
+          />
+        </div>
+      </div>
     </div>
 
     <!-- jQuery y Bootstrap JS -->
@@ -64,15 +137,22 @@
 
     <!-- Script para cambiar el modo -->
     <script>
-        document.getElementById('toggle-theme').addEventListener('click', function() {
-            var currentTheme = document.getElementById('theme').getAttribute('href');
-            if (currentTheme === 'estilos-claro.css') {
-                document.getElementById('theme').setAttribute('href', 'estilos-oscuro.css');
-            } else {
-                document.getElementById('theme').setAttribute('href', 'estilos-claro.css');
-            }
+      document
+        .getElementById("toggle-theme")
+        .addEventListener("click", function () {
+          var currentTheme = document
+            .getElementById("theme")
+            .getAttribute("href");
+          if (currentTheme === "estilos-claro.css") {
+            document
+              .getElementById("theme")
+              .setAttribute("href", "estilos-oscuro.css");
+          } else {
+            document
+              .getElementById("theme")
+              .setAttribute("href", "estilos-claro.css");
+          }
         });
     </script>
-</body>
-
+  </body>
 </html>
